@@ -1,0 +1,127 @@
+<Website>
+  <queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">False</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">b5c50e62-a19b-e811-a967-000d3a30dc28</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <name type="String">&lt;Outside Counsel 4&gt;</name>
+    </queue> 
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">False</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">4f468968-ac55-e711-80e6-3863bb2bca60</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <name type="String">&lt;Business Admins&gt;</name>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">True</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">f2326dd9-adc6-e611-80f9-3863bb34cb20</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <mims_timezone type="Integer">4</mims_timezone>
+      <name type="String">&lt;Process Team 1&gt;</name>
+      <mims_businesshoursstart type="String">08:00</mims_businesshoursstart>
+      <mims_businesshoursend type="String">17:00</mims_businesshoursend>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">False</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">d24e56eb-adc6-e611-80f9-3863bb34cb20</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <mims_timezone type="Integer">4</mims_timezone>
+      <name type="String">&lt;Paralegal&gt;</name>
+      <mims_businesshoursstart type="String">1:00</mims_businesshoursstart>
+      <mims_businesshoursend type="String">5:00</mims_businesshoursend>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">True</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">fd4abfb2-4378-e711-80ee-3863bb353d80</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <name type="String">&lt;Process Legal&gt;</name>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">False</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">8d5ffb4d-5f0d-e711-80de-3863bb35ed38</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <name type="String">IMS US Immigration</name>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">True</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">b904ae3c-b949-e711-80e9-3863bb35ed38</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <mims_timezone type="Integer">190</mims_timezone>
+      <name type="String">&lt;Outside Counsel 1&gt;</name>
+      <mims_businesshoursstart type="String">10:45</mims_businesshoursstart>
+      <mims_businesshoursend type="String">13:00</mims_businesshoursend>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">True</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">ab6c8a5f-b949-e711-80e9-3863bb35ed38</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <mims_timezone type="Integer">4</mims_timezone>
+      <name type="String">&lt;Outside Counsel 2&gt;</name>
+      <mims_businesshoursstart type="String">09:00</mims_businesshoursstart>
+      <mims_businesshoursend type="String">17:00</mims_businesshoursend>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">True</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">3bc6c395-b949-e711-80e9-3863bb35ed38</queueid>
+      <mims_isitateamqueue type="Boolean">True</mims_isitateamqueue>
+      <mims_timezone type="Integer">4</mims_timezone>
+      <name type="String">&lt;Outside Counsel 6&gt;</name>
+      <mims_businesshoursstart type="String">15:00</mims_businesshoursstart>
+      <mims_businesshoursend type="String">20:00</mims_businesshoursend>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">True</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">9165a9a0-b949-e711-80e9-3863bb35ed38</queueid>
+      <mims_isitateamqueue type="Boolean">True</mims_isitateamqueue>
+      <mims_timezone type="Integer">190</mims_timezone>
+      <name type="String">&lt;Outside Counsel 5&gt;</name>
+      <mims_businesshoursstart type="String">13:00</mims_businesshoursstart>
+      <mims_businesshoursend type="String">16:00</mims_businesshoursend>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">True</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">b50d9cb5-b949-e711-80e9-3863bb35ed38</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <mims_timezone type="Integer">190</mims_timezone>
+      <name type="String">&lt;Outside Counsel 3&gt;</name>
+      <mims_businesshoursstart type="String">17:30</mims_businesshoursstart>
+      <mims_businesshoursend type="String">20:00</mims_businesshoursend>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">False</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">73deb523-f9cc-e611-80f8-3863bb35ef70</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <mims_timezone type="Integer">4</mims_timezone>
+      <name type="String">&lt;Attorney&gt;</name>
+      <mims_businesshoursstart type="String">10:00</mims_businesshoursstart>
+      <mims_businesshoursend type="String">14:00</mims_businesshoursend>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">False</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">927d9b8f-d254-e711-80f3-3863bb3c0560</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <name type="String">&lt;Process Team 2&gt;</name>
+      <mims_timezone type="Integer">4</mims_timezone>
+    </queue>
+    <queue>
+      <mims_isoutsidecounsel type="Boolean">False</mims_isoutsidecounsel>
+      <queueviewtype type="OptionSet">0</queueviewtype>
+      <queueid type="Uniqueidentifier">3db45b18-d754-e711-80f3-3863bb3c0560</queueid>
+      <mims_isitateamqueue type="Boolean">False</mims_isitateamqueue>
+      <name type="String">&lt;Program Managers&gt;</name>
+    </queue>
+  </queue>
+</Website>

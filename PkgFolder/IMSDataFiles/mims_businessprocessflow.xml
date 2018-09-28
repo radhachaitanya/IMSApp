@@ -1,0 +1,100 @@
+<Website>
+  <mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">afd1e207-85a7-e811-a96b-000d3a30dc0a</mims_businessprocessflowid>
+      <mims_name type="String">Phone to Case Process</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">31b315d8-bb3b-e711-8107-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">BPF for HCAP case</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">7a2308ee-a483-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">10 Stage AOS</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">0b27881b-5e84-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">7 Stages</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">e35d8a8d-6284-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">11 Stage</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">d28af4f4-6284-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">9 Stages</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">5b326d61-6684-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">4 Stages</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">d11fc827-7a84-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">7 Stages 2</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">d20104c6-8784-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">5 Stages 2</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">4ff974ba-8884-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">5 Stages</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">45915a22-8a84-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">6 Stages 2</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">1cd0a474-e184-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">6 Stage</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">5d8aba11-b986-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">11 Stages 2</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">b1cead23-ba86-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">OC</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">81f67d4a-bc86-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">8 Stages 2</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">eea7f5d7-c286-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">One Stage</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">80dc9acf-ce86-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">F1CPT</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">28d47979-d086-e711-8110-3863bb351f08</mims_businessprocessflowid>
+      <mims_name type="String">EB3 Downgrade</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">591ddf4d-1a7c-e711-80f9-3863bb3630a8</mims_businessprocessflowid>
+      <mims_name type="String">10 Stages</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">93ad20d8-3c87-e711-80fa-3863bb3630a8</mims_businessprocessflowid>
+      <mims_name type="String">EB3 I140</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">e7c664f2-ff7e-e711-80f8-3863bb3c0560</mims_businessprocessflowid>
+      <mims_name type="String">8 Stages</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">5cc1e481-0577-e711-80f6-3863bb3cc560</mims_businessprocessflowid>
+      <mims_name type="String">3 Stages</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">b7e7d081-3987-e711-80f9-3863bb3cc560</mims_businessprocessflowid>
+      <mims_name type="String">TNMEXCAN</mims_name>
+    </mims_businessprocessflow>
+    <mims_businessprocessflow>
+      <mims_businessprocessflowid type="Uniqueidentifier">1278b268-6ec9-e711-8108-c4346bdc2241</mims_businessprocessflowid>
+      <mims_name type="String">7 Stage</mims_name>
+    </mims_businessprocessflow>
+  </mims_businessprocessflow>
+</Website>

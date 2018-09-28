@@ -1,0 +1,88 @@
+<Website>
+  <team>
+    
+    <team>
+      <name type="String">Business Admins</name>
+      <teamid type="Uniqueidentifier">4e468968-ac55-e711-80e6-3863bb2bca60</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Business Admins&gt;">4f468968-ac55-e711-80e6-3863bb2bca60</queueid>
+    </team>
+    <team>
+      <name type="String">Process Team 1</name>
+      <teamid type="Uniqueidentifier">85326dd9-adc6-e611-80f9-3863bb34cb20</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Process Team 1&gt;">f2326dd9-adc6-e611-80f9-3863bb34cb20</queueid>
+    </team>
+    <team>
+      <name type="String">Paralegal</name>
+      <teamid type="Uniqueidentifier">c74e56eb-adc6-e611-80f9-3863bb34cb20</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Paralegal&gt;">d24e56eb-adc6-e611-80f9-3863bb34cb20</queueid>
+    </team>
+    <team>
+      <name type="String">Process Legal</name>
+      <teamid type="Uniqueidentifier">fc4abfb2-4378-e711-80ee-3863bb353d80</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Process Legal&gt;">fd4abfb2-4378-e711-80ee-3863bb353d80</queueid>
+    </team>
+    <team>
+      <name type="String">Outside Counsel 1</name>
+      <teamid type="Uniqueidentifier">b804ae3c-b949-e711-80e9-3863bb35ed38</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Outside Counsel 1&gt;">b904ae3c-b949-e711-80e9-3863bb35ed38</queueid>
+    </team>
+    <team>
+      <name type="String">Outside Counsel 2</name>
+      <teamid type="Uniqueidentifier">aa6c8a5f-b949-e711-80e9-3863bb35ed38</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Outside Counsel 2&gt;">ab6c8a5f-b949-e711-80e9-3863bb35ed38</queueid>
+    </team>
+    <team>
+      <name type="String">Outside Counsel 4</name>
+      <teamid type="Uniqueidentifier">d8b7c67c-b949-e711-80e9-3863bb35ed38</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Outside Counsel 4&gt;">b5c50e62-a19b-e811-a967-000d3a30dc28</queueid>
+    </team>
+    <team>
+      <name type="String">Outside Counsel 6</name>
+      <teamid type="Uniqueidentifier">3ac6c395-b949-e711-80e9-3863bb35ed38</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Outside Counsel 6&gt;">3bc6c395-b949-e711-80e9-3863bb35ed38</queueid>
+    </team>
+    <team>
+      <name type="String">Outside Counsel 5</name>
+      <teamid type="Uniqueidentifier">9065a9a0-b949-e711-80e9-3863bb35ed38</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Outside Counsel 5&gt;">9165a9a0-b949-e711-80e9-3863bb35ed38</queueid>
+    </team>
+    <team>
+      <name type="String">Outside Counsel 3</name>
+      <teamid type="Uniqueidentifier">b40d9cb5-b949-e711-80e9-3863bb35ed38</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Outside Counsel 3&gt;">b50d9cb5-b949-e711-80e9-3863bb35ed38</queueid>
+    </team>
+    <team>
+      <name type="String">Attorney</name>
+      <teamid type="Uniqueidentifier">72deb523-f9cc-e611-80f8-3863bb35ef70</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Attorney&gt;">73deb523-f9cc-e611-80f8-3863bb35ef70</queueid>
+    </team>
+    <team>
+      <name type="String">Process Team 2</name>
+      <teamid type="Uniqueidentifier">917d9b8f-d254-e711-80f3-3863bb3c0560</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Process Team 2&gt;">927d9b8f-d254-e711-80f3-3863bb3c0560</queueid>
+    </team>
+    <team>
+      <name type="String">Program Managers</name>
+      <teamid type="Uniqueidentifier">76b05b18-d754-e711-80f3-3863bb3c0560</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+      <queueid type="EntityReference" LogicalName="queue" Name="&lt;Program Managers&gt;">3db45b18-d754-e711-80f3-3863bb3c0560</queueid>
+    </team>
+    <team>
+      <name type="String">PowerBI</name>
+      <teamid type="Uniqueidentifier">21f589fd-e186-e711-80f9-3863bb3c0560</teamid>
+      <businessunitid type="EntityReference" LogicalName="businessunit" Name="Ims Global">cce77a83-cf72-e711-80ee-3863bb353d80</businessunitid>
+    </team>
+  </team>
+</Website>

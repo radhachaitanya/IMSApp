@@ -1,0 +1,74 @@
+<Website>
+  <queue>
+    <queue>
+      <name type="String">&lt;Outside Counsel 4&gt;</name>
+      <queueid type="Uniqueidentifier">b5c50e62-a19b-e811-a967-000d3a30dc28</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Outside Counsel 4">d8b7c67c-b949-e711-80e9-3863bb35ed38</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Business Admins&gt;</name>
+      <queueid type="Uniqueidentifier">4f468968-ac55-e711-80e6-3863bb2bca60</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Business Admins">4e468968-ac55-e711-80e6-3863bb2bca60</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Process Team 1&gt;</name>
+      <queueid type="Uniqueidentifier">f2326dd9-adc6-e611-80f9-3863bb34cb20</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Process Team 1">85326dd9-adc6-e611-80f9-3863bb34cb20</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Paralegal&gt;</name>
+      <queueid type="Uniqueidentifier">d24e56eb-adc6-e611-80f9-3863bb34cb20</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Paralegal">c74e56eb-adc6-e611-80f9-3863bb34cb20</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Process Legal&gt;</name>
+      <queueid type="Uniqueidentifier">fd4abfb2-4378-e711-80ee-3863bb353d80</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Process Legal">fc4abfb2-4378-e711-80ee-3863bb353d80</ownerid>
+    </queue>
+    <queue>
+      <name type="String">IMS US Immigration</name>
+      <queueid type="Uniqueidentifier">8d5ffb4d-5f0d-e711-80de-3863bb35ed38</queueid>
+      <ownerid type="EntityReference" LogicalName="systemuser" Name="SESIT D365 Admin Account #">159b6696-776f-e811-a962-000d3a314c2b</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Outside Counsel 1&gt;</name>
+      <queueid type="Uniqueidentifier">b904ae3c-b949-e711-80e9-3863bb35ed38</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Outside Counsel 1">b804ae3c-b949-e711-80e9-3863bb35ed38</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Outside Counsel 2&gt;</name>
+      <queueid type="Uniqueidentifier">ab6c8a5f-b949-e711-80e9-3863bb35ed38</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Outside Counsel 2">aa6c8a5f-b949-e711-80e9-3863bb35ed38</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Outside Counsel 6&gt;</name>
+      <queueid type="Uniqueidentifier">3bc6c395-b949-e711-80e9-3863bb35ed38</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Outside Counsel 6">3ac6c395-b949-e711-80e9-3863bb35ed38</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Outside Counsel 5&gt;</name>
+      <queueid type="Uniqueidentifier">9165a9a0-b949-e711-80e9-3863bb35ed38</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Outside Counsel 5">9065a9a0-b949-e711-80e9-3863bb35ed38</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Outside Counsel 3&gt;</name>
+      <queueid type="Uniqueidentifier">b50d9cb5-b949-e711-80e9-3863bb35ed38</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Outside Counsel 3">b40d9cb5-b949-e711-80e9-3863bb35ed38</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Attorney&gt;</name>
+      <queueid type="Uniqueidentifier">73deb523-f9cc-e611-80f8-3863bb35ef70</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Attorney">72deb523-f9cc-e611-80f8-3863bb35ef70</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Process Team 2&gt;</name>
+      <queueid type="Uniqueidentifier">927d9b8f-d254-e711-80f3-3863bb3c0560</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Process Team 1">85326dd9-adc6-e611-80f9-3863bb34cb20</ownerid>
+    </queue>
+    <queue>
+      <name type="String">&lt;Program Managers&gt;</name>
+      <queueid type="Uniqueidentifier">3db45b18-d754-e711-80f3-3863bb3c0560</queueid>
+      <ownerid type="EntityReference" LogicalName="team" Name="Program Managers">76b05b18-d754-e711-80f3-3863bb3c0560</ownerid>
+    </queue>
+  </queue>
+</Website>

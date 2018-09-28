@@ -1,0 +1,60 @@
+<Website>
+  <team>
+    <team>
+      <teamid type="Uniqueidentifier">4e468968-ac55-e711-80e6-3863bb2bca60</teamid>    
+      <securityrole type="String">IMS Business Admin</securityrole>  
+    </team>
+    <team>    
+      <teamid type="Uniqueidentifier">85326dd9-adc6-e611-80f9-3863bb34cb20</teamid>
+      <securityrole type="String">IMS Vendor</securityrole>  	  
+    </team>
+    <team>
+      <teamid type="Uniqueidentifier">c74e56eb-adc6-e611-80f9-3863bb34cb20</teamid>  
+      <securityrole type="String">IMS OC</securityrole>
+    </team>
+    <team>    
+      <teamid type="Uniqueidentifier">fc4abfb2-4378-e711-80ee-3863bb353d80</teamid>
+	  <securityrole type="String">IMS OC</securityrole>
+    </team>
+    <team>
+      <teamid type="Uniqueidentifier">b804ae3c-b949-e711-80e9-3863bb35ed38</teamid>
+	  <securityrole type="String">IMS OC</securityrole>
+    </team>
+    <team>    
+      <teamid type="Uniqueidentifier">aa6c8a5f-b949-e711-80e9-3863bb35ed38</teamid>
+	  <securityrole type="String">IMS OC</securityrole>
+    </team>
+    <team>
+      <teamid type="Uniqueidentifier">d8b7c67c-b949-e711-80e9-3863bb35ed38</teamid>    
+	  <securityrole type="String">IMS OC</securityrole>
+    </team>
+    <team>    
+      <teamid type="Uniqueidentifier">3ac6c395-b949-e711-80e9-3863bb35ed38</teamid>   
+      <securityrole type="String">IMS OC</securityrole>	  
+    </team>
+    <team>
+      <teamid type="Uniqueidentifier">9065a9a0-b949-e711-80e9-3863bb35ed38</teamid> 
+      <securityrole type="String">IMS OC</securityrole>	  
+    </team>
+    <team>
+      <teamid type="Uniqueidentifier">b40d9cb5-b949-e711-80e9-3863bb35ed38</teamid>
+	  <securityrole type="String">IMS OC</securityrole>
+    </team>
+    <team>
+      <teamid type="Uniqueidentifier">72deb523-f9cc-e611-80f8-3863bb35ef70</teamid>
+	  <securityrole type="String">IMS Legal Group</securityrole>
+    </team>
+    <team>
+      <teamid type="Uniqueidentifier">917d9b8f-d254-e711-80f3-3863bb3c0560</teamid>
+	  <securityrole type="String">IMS Vendor</securityrole>
+    </team>
+    <team>
+      <teamid type="Uniqueidentifier">76b05b18-d754-e711-80f3-3863bb3c0560</teamid>
+	  <securityrole type="String">IMS Program Manager</securityrole>
+    </team>
+    <team>
+      <teamid type="Uniqueidentifier">21f589fd-e186-e711-80f9-3863bb3c0560</teamid>
+	  <securityrole type="String">IMS OC</securityrole>	
+    </team>
+  </team>
+</Website>

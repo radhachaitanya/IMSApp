@@ -1,0 +1,100 @@
+<Website>
+  <adx_webpage>
+    <adx_webpage>
+      <adx_name type="String">Create Contact</adx_name>
+      <adx_customjavascript type="Memo">$(document).ready(function(){
+var loginUserStatus= $('#validuser').val();
+var baseurl = window.location.origin;
+if(loginUserStatus != true)
+{
+   window.location.replace(baseurl);
+}
+});</adx_customjavascript>
+      <adx_webpageid type="Uniqueidentifier">c2813909-d488-e711-8110-5065f38a0a81</adx_webpageid>
+    </adx_webpage>
+    <adx_webpage>
+      <adx_name type="String">HR Cases</adx_name>
+      <adx_customjavascript type="Memo">$(document).ready(function(){
+  $('#footertable').attr('margin-top','30px');
+
+});</adx_customjavascript>
+      <adx_webpageid type="Uniqueidentifier">73c51d40-d188-e711-8110-5065f38a0a81</adx_webpageid>
+    </adx_webpage>
+    <adx_webpage>
+      <adx_name type="String">Loading Questionnaire..</adx_name>
+      <adx_customjavascript type="Memo">$("#homelink").hide();$("#statuscode_label").hide();$("#statuscode").hide();$("#mims_questionnaireurl_label").hide();$("#mims_questionnaireurl").hide();$("#UpdateButton").hide();$("document").ready(function () {        var id = decodeURIComponent((new RegExp('[?|&amp;]' + '?id=' + '([^&amp;;]+?)(&amp;|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;    var url = $("#mims_questionnaireurl").val();    var name = $("#statuscode")[0].innerHTML;    //alert(url);    //alert(id);            var baseUrl = "";    if (!window.location.origin) {        baseUrl = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port : '');    }    else {        baseUrl = document.location.origin;    }    if ($("#statuscode")[0].innerHTML == "Edit" &amp;&amp; url.trim().length != 0) {               var url = baseUrl + "/" + url + "?id=" + id;        window.location.replace(url);    }    else if ($("#statuscode")[0].innerHTML == "Submitted" &amp;&amp; url.trim().length != 0) {       var url = baseUrl + "/" + url + "_readonly?id=" + id;        window.location.replace(url);    }    else if ($("#statuscode")[0].innerHTML == "Edit") {       var url = baseUrl + "/DefaultQuestionnaire?id=" + id;        window.location.replace(url);    }    else if ($("#statuscode")[0].innerHTML == "Submitted") {       var url = baseUrl + "/QuestionnaireSubmit_readonly?id=" + id;        window.location.replace(url);    }});</adx_customjavascript>
+      <adx_webpageid type="Uniqueidentifier">5a52c748-587f-e811-a95f-000d3a30d104</adx_webpageid>
+    </adx_webpage>
+    <adx_webpage>
+      <adx_name type="String">Update Contact</adx_name>
+      <adx_customjavascript type="Memo">$(document).ready(function(){
+  var loginUserStatus= $('#validuser').val();
+var baseurl = window.location.origin;
+if(loginUserStatus != true)
+{
+   window.location.replace(baseurl);
+}
+  
+//Accessibility bugs of details button
+    $('table tbody tr td a').each(function(){
+    var txt=$(this).text();
+    if(txt =="Details")
+    {
+    $(this).attr('aria-label','View Details');
+    }
+    }); 
+});
+
+$("#EntityFormControl_EntityFormView").on("loaded", function () {
+    $('table tbody tr').each(function () {
+        var val = $(this).find('[data-attribute="createdon"]').attr("data-value");
+        if (val) {
+            var value = new Date(parseInt(val.replace('/Date(', '')));
+            var day = value.getDate();
+            var month = value.getMonth() + 1;
+            var year = value.getFullYear();
+            $(this).find('[data-attribute="createdon"]').find('time').html(month + "/" + day + "/" + year);
+        }
+    });
+});</adx_customjavascript>
+      <adx_webpageid type="Uniqueidentifier">29a8da1f-d988-e711-8110-5065f38a0a81</adx_webpageid>
+    </adx_webpage>
+    <adx_webpage>
+      <adx_name type="String">USCIS Document</adx_name>
+      <adx_customjavascript type="Memo">{% assign dataid = request.params['data'] %}$(document).ready(function () {                               $("#receiptnum").val("{{dataid}}");            document.caseStatSearch.submit();        });                                 function getParameterByName() {            var vals = new Array();            if (location.search != "") {                vals = location.search.substr(1).split("&amp;");                for (var i in vals) {                    vals[i] = vals[i].replace(/\+/g, " ").split("=");                }                //look for the parameter named 'data'                for (var i in vals) {                    if (vals[i][0].toLowerCase() == "data") {                      return vals[i][1];                    }                }            }            return null;        } </adx_customjavascript>
+      <adx_webpageid type="Uniqueidentifier">efd2e48c-877e-e811-a960-000d3a30d7c8</adx_webpageid>
+    </adx_webpage>
+    <adx_webpage>
+      <adx_name type="String">USCIS Document</adx_name>
+      <adx_customjavascript type="Memo">$(document).ready(function () {
+           
+            $("#receiptnum").val();
+            document.caseStatSearch.submit();
+        }); 
+          
+      
+        function getParameterByName() {
+            var vals = new Array();
+            if (location.search != "") {
+                vals = location.search.substr(1).split("&amp;");
+                for (var i in vals) {
+                    vals[i] = vals[i].replace(/\+/g, " ").split("=");
+                }
+                //look for the parameter named 'data'
+                for (var i in vals) {
+                    if (vals[i][0].toLowerCase() == "data") {
+                        return vals[i][1];
+                    }
+                }
+            }
+            return null;
+        } </adx_customjavascript>
+      <adx_webpageid type="Uniqueidentifier">0d0955d9-c67e-e811-a95d-000d3a30dc28</adx_webpageid>
+    </adx_webpage>
+    <adx_webpage>
+      <adx_name type="String">USCIS Document</adx_name>
+      <adx_customjavascript type="Memo">$(document).ready(function () {                       $("#receiptnum").val();            document.caseStatSearch.submit();        });                         function getParameterByName() {            var vals = new Array();            if (location.search != "") {                vals = location.search.substr(1).split("&amp;");                for (var i in vals) {                    vals[i] = vals[i].replace(/\+/g, " ").split("=");                }                //look for the parameter named 'data'                for (var i in vals) {                    if (vals[i][0].toLowerCase() == "data") {                        return vals[i][1];                    }                }            }            return null;        } </adx_customjavascript>
+      <adx_webpageid type="Uniqueidentifier">9b3e417c-433a-e711-80e2-3863bb2e0320</adx_webpageid>
+    </adx_webpage>
+  </adx_webpage>
+</Website>
